@@ -1,0 +1,8 @@
+/* because smile rhymes with style 👈😏👈 */
+
+div[class^="col"]
+{
+    background-color: lightgray;
+    border: 3px solid gray;
+    height: 15vh;
+}

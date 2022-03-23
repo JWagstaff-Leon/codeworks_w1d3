@@ -1,0 +1,24 @@
+section
+{
+    min-height: 20vh;
+}
+
+#trick-1, #trick-2
+{
+    min-height: 40vh;
+}
+
+.bold
+{
+    font-weight: 600;
+}
+
+#trick-2
+{
+    background-color: lightgray;
+}
+
+p
+{
+    text-align: left;
+}
