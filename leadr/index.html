@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BE A LEADR</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+       .debug .container,
+  .debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  .debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  .debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+    </style>
+  </head>
+  <body>
+      <header>
+        <!-- NOTE nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand text-light" href="#">109leadr</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="main-nav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link text-light"href="#features">Featured</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-light" href="#overview">Start now</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          
+        <section class="container" id="overview">
+            <div class="row">
+                <!-- NOTE start now -->
+                <div class="col-lg-6 text-light align-self-center">
+                    <h1>Your jobs, <span class="bold">our news.</span></h1>
+                    <p>109 Leadr e lo strumento informativo piu leggero e piy potente disponibile sul mercato. Tutte le news del tuo settore professionale, pie aggiornameti quotidiani, la possibilita di accedere ad una piattaform multimediale. TM</p>
+                    <div class="align-items-center">
+                      <button class="btn start-button text-light my-1"><i class="mdi mdi-apple p-2"></i>Download for Apple</button>
+                      <button class="btn start-button text-light my-1"><i class="mdi mdi-android p-2"></i>Download for Android</button>
+                    </div>
+
+                </div>
+                <!-- NOTE image -->
+                <div class="col-lg-6 mt-3">
+                    <img src="./splash.png" alt="" class="img-fluid">
+                </div>
+            </div>
+          </section>
+      </header>
+
+      <main>
+        <section class="container" id="features">
+          <div class="row text-center my-4">
+            <!-- NOTE features section header -->
+            <div class="col-6 mx-auto">
+              <h3>Features</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
+            </div>
+          </div>
+          
+          <!-- NOTE feature cards -->
+          <div class="row text-center feature-cards">
+            <div class="col-lg-4">
+              <i class="mdi mdi-briefcase mdi-48px"></i>
+              <h4>Your jobs</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
+            </div>
+            <div class="col-lg-4 card">
+              <div class="card-body">
+                <i class="mdi mdi-book-open-page-variant-outline mdi-48px"></i>
+                <h4>Read news</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <i class="mdi mdi-message-outline mdi-48px"></i>
+              <h4>News about jobs</h4>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua.</p>
+            </div>
+          </div>
+        </section>
+        
+        <section class="container-fluid" id="video">
+          <div class="row align-items-center">
+            <!-- NOTE video -->
+            <div class="col-md-6">
+              <img class="img-fluid" src="video.png" alt="video">
+            </div>
+            <!-- NOTE video text -->
+            <div class="col-md-6 text-light p-5">
+              <h2 class="p-2">Notize per piu di 17 professioni</h2>
+              <p class="p-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamo laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <section class="container-fluid bg-dark text-light">
+          <div class="row p-3">
+            <div class="col-6 col-md-4">
+              <h5>109leadr</h5>
+              <h6>109Leadr e un brand di 109Press.it,</h6>
+              <h6>Via San Camillo 8, Messina</h6>
+            </div>
+            <div class="col-6 col-md-8">
+              <div class="row align-items-center">
+                <div class="col-md-6 order-2 order-md-1 mt-md-0 mt-4 text-center">
+                  <i class="mdi mdi-apple"></i>
+                  <i class="mdi mdi-android"></i>
+                </div>
+                <div class="col-md-6 order-1 order-md-2 mt-2 text-center">
+                  <i class="mdi mdi-facebook icon-card"></i>
+                  <i class="mdi mdi-twitter icon-card"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </footer>
+      
+      <!-- Bootstrap JavaScript Libraries -->
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+a
+{
+    font-size: x-large;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+div
+{
+    width: fit-content;
+    padding: 1.0em;
+    margin: 0.5em;
+    background-color: deepskyblue;
+    border-radius: 30px;
+}
+
+div:hover
+{
+    background-color: #0099ff;
+}
+
+a:visited
+{
+    color: whitesmoke
+}
