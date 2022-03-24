@@ -3,13 +3,13 @@ a
     font-size: x-large;
     text-decoration: none;
     color: whitesmoke;
+    margin: 0.5em;
 }
 
 div
 {
-    width: fit-content;
     padding: 1.0em;
-    margin: 0.5em;
+    width: fit-content;
     background-color: deepskyblue;
     border-radius: 30px;
 }
